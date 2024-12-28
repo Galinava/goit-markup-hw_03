@@ -1,0 +1,175 @@
+:root {
+  --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
+  --dark: #2e2f42;
+  --success: #31d0aa;
+  --text: #434455;
+  --subtle-text: #8e8f99;
+  --accent: #e7e9fc;
+  --light: #f4f4fd;
+  --modal-overlay: rgba(46, 47, 66, 0.4);
+  --hero-background: rgba(46, 47, 66, 0.7);
+  --white-background: #ffffff;
+  --modal-background: #fcfcfc;
+}
+
+.page {
+  background-color: var(--white-background);
+  color: var(--text);
+
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: var(--primary-brand);
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.logo .accent-logo {
+  color: var(--dark);
+}
+
+/* Site nav */
+
+.site-nav .link {
+  color: var(--dark);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contact .link:hover,
+.contact .link:focus {
+  color: var(--pressed-state);
+}
+
+.contact .link {
+  color: var(--text);
+  font-weight: 400;
+  text-decoration: none;
+}
+
+/* Hero */
+
+.hero-title {
+background-color: var(--dark);
+
+  color: var(--white-background);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+}
+
+/* Button */
+
+.button {
+  color: var(--white-background);
+  background-color: var(--primary-brand);
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background: var(--pressed-state);
+}
+
+/* Section */
+
+.section-title {
+  color: var(--dark);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+/* Features and Team Portfolio-Cards*/
+
+.feature .title,
+.team .title,
+.card .title  {
+  color: var(--dark);
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+/* Team */
+
+.team .title {
+  text-align: center;
+}
+
+.team .text {
+  text-align: center;
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--dark);
+}
+
+.logo .accent-footer {
+  color: var(--light);
+}
+
+.footer .text {
+  color: var(--light);
+}
+
+
+
+/* Portfolio */
+
+/* Filters */
+
+.button.primary {
+  color: var(--primary-brand);
+  background-color: var(--light);
+
+  text-align: center;
+}
+
+.button.primary:hover,
+.button.primary:focus {
+  color: var(--white-background);
+  background-color: var(--pressed-state);
+}
+
+/* Cards */
+
+.card .text {
+  color: var(--text);
+}
+
+.card .link {
+  text-decoration: none;
+}
+
+
