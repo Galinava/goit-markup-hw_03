@@ -4,120 +4,156 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Web Studio</title>
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <!-- Normalize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css">
+  <!-- Custom styles -->
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body class="page">
-
   <!-- Site hat -->
-
-   <header>
-    <nav>
+   <header class="page-header">
+    <div class="container main-container">
+    <nav class="main-nav">
       <a href="./index.html" class="logo">Web<span class="accent-logo">Studio</span></a>
 
     <ul class="site-nav list">
-      <li><a href="./index.html" class="link">Studio</a></li>
-      <li><a href="./portfolio.html" class="link">Portfolio</a></li>
-      <li><a href="" class="link">Contacts</a></li>
+      <li class="item">
+        <a href="./index.html" class="link">Studio</a>
+      </li>
+
+      <li class="item">
+        <a href="./portfolio.html" class="link">Portfolio</a>
+      </li>
+
+      <li class="item">
+        <a href="#contacts" class="link">Contacts</a>
+      </li>
     </ul>
     </nav>
 
     <ul class="contact list">
-      <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-      <li><a href="tel:+11(000)111-11-11" class="link">+11 (000) 111-11-11</a></li>
+      <li class="item">
+        <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+      </li>
+      
+      <li class="item">
+        <a href="tel:+11(000)111-11-11" class="link">+11 (000) 111-11-11</a>
+      </li>
     </ul>
+    </div>
    </header>
+   
    <main>
-   <!-- Filters -->
-   <section class="section">
-    <h1>Filters</h1>
+   <!-- Filters / Cards -->
+   <section class="section section-portfolio">
+    <div class="container">
+      <h1 hidden>Filters</h1>
     
-    <ul class="filters list">
-      <li><button type="button" class="button primary">All</button></li>
-      <li><button type="button" class="button primary">Web Site</button></li>
-      <li><button type="button" class="button primary">App</button></li>
-      <li><button type="button" class="button primary">Design</button></li>
-      <li><button type="button" class="button primary">Marketing</button></li>
+    <ul class="filter list">
+      <li class="item"><button type="button" class="button primary">All</button></li>
+      <li class="item"><button type="button" class="button primary">Web Site</button></li>
+      <li class="item"><button type="button" class="button primary">App</button></li>
+      <li class="item"><button type="button" class="button primary">Design</button></li>
+      <li class="item"><button type="button" class="button primary">Marketing</button></li>
     </ul>
-   </section>
 
-   <!-- Cards -->
-   <section class="section">
-    <h2>Our projects</h2>
-
+    <h2 hidden>Our projects</h2>
     <ul class="card list">
-      <li>
+      <li class="item">
         <a href="" class="link">
-        <img src="./images/galery/img1.jpg" alt="Registration form in the banking application" width="360" height="300">
+        <img src="./images/galery/img1.jpg" class="image" alt="Registration form in the banking application" width="360" height="300">
+        <div class="content">
         <h3 class="title">Banking App Interface Concept</h3>
         <p class="text">App</p>
+        </div>
         </a>
       </li>
-      <li>
+      <li class="item">
         <a href="" class="link">
-        <img src="./images/galery/img2.jpg" alt="Payment by phone via terminal" width="360" height="300">
+        <img src="./images/galery/img2.jpg" class="image" alt="Payment by phone via terminal" width="360" height="300">
+        <div class="content">
         <h3 class="title">Cashless Payment</h3>
         <p class="text">Marketing</p>
+        </div>
         </a>
       </li>
-      <li>
+      <li class="item">
         <a href="" class="link">
-        <img src="./images/galery/img3.jpg" alt="Laptop and phone" width="360" height="300">
+        <img src="./images/galery/img3.jpg" class="image" alt="Laptop and phone" width="360" height="300">
+        <div class="content">
         <h3 class="title">Meditation App</h3>
         <p class="text">App</p>
+        </div>
         </a>
       </li>
-      <li>
+      <li class="item">
         <a href="" class="link">
-        <img src="./images/galery/img4.jpg" alt="Man driving a car" width="360" height="300">
+        <img src="./images/galery/img4.jpg" class="image" alt="Man driving a car" width="360" height="300">
+        <div class="content">
         <h3 class="title">Taxi Service</h3>
         <p class="text">Marketing</p>
+        </div>
         </a>
       </li>
-      <li>
+      <li class="item">
         <a href="" class="link">
-        <img src="./images/galery/img5.jpg" alt="Phone with background image" width="360" height="300">
+        <img src="./images/galery/img5.jpg" class="image" alt="Phone with background image" width="360" height="300">
+        <div class="content">
         <h3 class="title">Screen Illustrations</h3>
         <p class="text">Design</p>
+        </div>
         </a>
       </li>
-      <li>
+      <li class="item">
         <a href="" class="link">
-        <img src="./images/galery/img6.jpg" alt="Girl in headphones with a phone" width="360" height="300">
+        <img src="./images/galery/img6.jpg" class="image" alt="Girl in headphones with a phone" width="360" height="300">
+        <div class="content">
         <h3 class="title">Online Courses</h3>
         <p class="text">Marketing</p>
+        </div>
         </a>
       </li>
-      <li>
+      <li class="item">
         <a href="" class="link">
-        <img src="./images/galery/img7.jpg" alt="Instagram page" width="360" height="300">
+        <img src="./images/galery/img7.jpg" class="image" alt="Instagram page" width="360" height="300">
+        <div class="content">
         <h3 class="title">Instagram Stories Concept</h3>
         <p class="text">Design</p>
+        </div>
         </a>
       </li>
-      <li>
+      <li class="item">
         <a href="" class="link">
-        <img src="./images/galery/img8.jpg" alt="Girl with a string bag of fruits and vegetables" width="360" height="300">
+        <img src="./images/galery/img8.jpg" class="image" alt="Girl with a string bag of fruits and vegetables" width="360" height="300">
+        <div class="content">
         <h3 class="title">Organic Food</h3>
         <p class="text">Web Site</p>
+        </div>
         </a>
       </li>
-      <li>
+      <li class="item">
         <a href="" class="link">
-        <img src="./images/galery/img9.jpg" alt="Cup of coffee" width="360" height="300">
+        <img src="./images/galery/img9.jpg" class="image" alt="Cup of coffee" width="360" height="300">
+        <div class="content">
         <h3 class="title">Fresh Coffee</h3>
         <p class="text">Web Site</p>
+        </div>
         </a>
       </li>
     </ul>
+    </div>
    </section>
    </main>
    <!-- Footer -->
     <footer class="footer">
+      <div class="container">
       <a href="./index.html" class="logo">Web<span class="accent-footer">Studio</span></a>
         <p class="text">Increase the flow of customers and <br>sales for your business with digital <br>marketing &amp; growth solutions.</p>
+      </div>  
     </footer>
 </body>
 </html>
